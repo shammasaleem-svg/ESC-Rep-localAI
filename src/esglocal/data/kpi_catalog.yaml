@@ -75,6 +75,18 @@ kpis:
       - {name: scope1_tco2e, description: Direct (Scope 1) emissions, unit: tCO2e, aliases: [scope 1, direct emissions]}
       - {name: scope2_tco2e, description: Energy indirect (Scope 2) emissions, unit: tCO2e, aliases: [scope 2, indirect emissions]}
 
+  - id: E-GHG-SCOPE3
+    name: GHG emissions, Scope 3
+    category: Environmental
+    unit: tCO2e
+    formula: scope3_tco2e
+    higher_is_better: false
+    scored: false   # absolute value — shown for reporting, not scored (size-dependent)
+    frameworks: [GRI 305-3, GRI 102-7, ESRS E1-8]
+    description: Gross other indirect emissions across the upstream and downstream value chain.
+    inputs:
+      - {name: scope3_tco2e, description: Gross other indirect (Scope 3) emissions, unit: tCO2e, aliases: [scope 3, scope 3 emissions, scope3 emissions, value chain emissions]}
+
   - id: E-GHG-YOY
     name: GHG reduction vs prior year
     category: Environmental

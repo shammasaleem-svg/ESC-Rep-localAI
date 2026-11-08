@@ -20,6 +20,16 @@ def test_industry_exclusions_and_overrides(catalog):
     assert og.worst > default.worst
 
 
+def test_scope3_kpi_is_reported_unscored_and_maps_sample_data(catalog, mapping):
+    scope3 = catalog.kpi("E-GHG-SCOPE3")
+
+    assert scope3.scored is False
+    assert scope3.benchmark is None
+    assert set(scope3.frameworks) == {"GRI 305-3", "GRI 102-7", "ESRS E1-8"}
+    assert scope3.compiled().evaluate({"scope3_tco2e": 123.5}) == 123.5
+    assert mapping["scope3_tco2e"] == "Scope 3 emissions (tCO2e)"
+
+
 def test_search_industries(catalog):
     assert [i.name for i in catalog.search_industries("bank")] == ["Banking & Financial Services"]
     assert len(catalog.search_industries("")) == len(catalog.industries)

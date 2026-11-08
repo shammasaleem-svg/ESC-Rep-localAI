@@ -22,7 +22,7 @@ server on your machine (LM Studio, llama.cpp, vLLM, LocalAI, Jan).
 | | |
 |---|---|
 | 📥 **Data in** | Upload CSV/Excel. Columns are **auto-mapped** to KPI inputs (fuzzy matching, no LLM). Multi-site and multi-year data is aggregated correctly. Manual entry is also supported. |
-| 📏 **27 KPIs, 15 industries** | Energy, GHG, water, waste, turnover, training, safety, diversity, pay gap, board, ethics, supply chain, sustainable CapEx and more. Each KPI maps to **GRI / ESRS**. Industry materiality weights and benchmark overrides are included. |
+| 📏 **28 KPIs, 15 industries** | Energy, Scope 1–3 GHG emissions, water, waste, turnover, training, safety, diversity, pay gap, board, ethics, supply chain, sustainable CapEx and more. Each KPI maps to **GRI / ESRS**. Industry materiality weights and benchmark overrides are included. |
 | 🔒 **Safe formulas** | KPI formulas run through an AST-whitelisted evaluator. There is no `eval()` anywhere. |
 | 📊 **Dashboard** | Gauges, category bars, radars, trend lines with **linear forecasts**, and a full KPI table you can export. |
 | 🧪 **What-if simulator** | Change any input (for example −20 % Scope 1) and see the KPI, category and overall scores move. |

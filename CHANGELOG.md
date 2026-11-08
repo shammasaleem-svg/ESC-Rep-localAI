@@ -4,6 +4,12 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+- Unscored absolute Scope 3 GHG emissions KPI, mapped to GRI 305-3, its GRI 102-7
+  successor, and ESRS E1-8, with sample data and regression coverage.
+
 ## [0.1.0] - 2026-11-07
 
 ### Added

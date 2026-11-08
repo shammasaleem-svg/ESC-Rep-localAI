@@ -8,11 +8,18 @@ It is written for this project and released under the MIT license. Framework ref
 
 | Category | KPIs |
 |---|---|
-| Environmental | Energy intensity · Renewable share · GHG intensity (S1+2) · GHG total (reported, not scored) · GHG YoY reduction · Water intensity · Waste recycled · Hazardous waste share · *Climate transition plan (narrative)* |
+| Environmental | Energy intensity · Renewable share · GHG intensity (S1+2) · GHG total (S1+2, reported, not scored) · Scope 3 GHG total (reported, not scored) · GHG YoY reduction · Water intensity · Waste recycled · Hazardous waste share · *Climate transition plan (narrative)* |
 | Social | Turnover · Training hours/FTE · Training spend/FTE · LTIFR · Fatalities · Women in management · Gender pay gap · Customer satisfaction · *Human rights due diligence (narrative)* |
 | Governance | Board independence · Women on board · Revenue in low corruption-risk regions · Political contributions · Fines · Sustainable CapEx · Supplier ESG screening · Executive pay linked to ESG · *Anti-corruption & whistleblowing (narrative)* |
 
 Run `esglocal score sample` to see every KPI with its formula inputs and frameworks.
+
+The Scope 3 KPI maps to GRI 305-3 for reports published through 2026 and its successor,
+GRI 102-7, which takes effect on 1 January 2027. It also maps to ESRS E1-8 under the
+2026 amended ESRS. See the official [GRI 305-3](https://www.globalreporting.org/publications/documents/english/gri-305-emissions-2016/),
+[GRI 102](https://www.globalreporting.org/publications/documents/english/gri-102-climate-change-2025/),
+and [ESRS E1-8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=oj:L_202601563)
+sources.
 
 ## Scoring
 
